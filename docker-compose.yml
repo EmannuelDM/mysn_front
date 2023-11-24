@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  mysn_front:
+    build: .
+    container_name: mysn_front
+    ports:
+      - 3000:3000
